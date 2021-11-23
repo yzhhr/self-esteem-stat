@@ -2,140 +2,140 @@ male count = 106
 female count = 37
 male rosenberg ave = 2.2132075471698114
 female rosenberg ave = 2.3324324324324324
-Question #1: ¡ªÎÒ¸Ğµ½ÎÒÊÇÒ»¸öÓĞ¼ÛÖµµÄÈË£¬ÖÁÉÙÓëÆäËûÈËÔÚÍ¬Ò»Ë®Æ½ÉÏ¡£
+Question #1: â€”æˆ‘æ„Ÿåˆ°æˆ‘æ˜¯ä¸€ä¸ªæœ‰ä»·å€¼çš„äººï¼Œè‡³å°‘ä¸å…¶ä»–äººåœ¨åŒä¸€æ°´å¹³ä¸Šã€‚
 male relevance = KendalltauResult(correlation=0.5900130631923629, pvalue=2.246132137718375e-14)
 mean = 2.1132075471698113
 female relevance = KendalltauResult(correlation=0.6491415422716635, pvalue=5.436795353394289e-07)
 mean = 2.189189189189189
 overall relevance = KendalltauResult(correlation=0.5997476692073497, pvalue=7.883457048122254e-20)
 mean = 2.132867132867133
-Question #2: ÎÒ¸Ğµ½ÎÒÓĞĞí¶àºÃµÄÆ·ÖÊ¡£
+Question #2: æˆ‘æ„Ÿåˆ°æˆ‘æœ‰è®¸å¤šå¥½çš„å“è´¨ã€‚
 male relevance = KendalltauResult(correlation=0.5505465871923267, pvalue=1.2751801957628484e-12)
 mean = 2.0283018867924527
 female relevance = KendalltauResult(correlation=0.6426512326263107, pvalue=1.24073803011382e-06)
 mean = 2.054054054054054
 overall relevance = KendalltauResult(correlation=0.5688374593699853, pvalue=1.2113268810434436e-17)
 mean = 2.034965034965035
-Question #3: ¹é¸ù½áµ×£¬ÎÒÇãÏòÓÚ¾õµÃ×Ô¼ºÊÇ¸öÊ§°ÜÕß¡£
+Question #3: å½’æ ¹ç»“åº•ï¼Œæˆ‘å€¾å‘äºè§‰å¾—è‡ªå·±æ˜¯ä¸ªå¤±è´¥è€…ã€‚
 male relevance = KendalltauResult(correlation=-0.7439220053443354, pvalue=6.162946803002246e-23)
 mean = 2.839622641509434
 female relevance = KendalltauResult(correlation=-0.5715739957163775, pvalue=1.493232280534243e-05)
 mean = 2.7567567567567566
 overall relevance = KendalltauResult(correlation=-0.7063663674261437, pvalue=1.506158554097129e-27)
 mean = 2.8181818181818183
-Question #4: ÎÒÄÜÏñ´ó¶àÊıÈËÒ»Ñù°ÑÊÂÇé×öºÃ¡£
+Question #4: æˆ‘èƒ½åƒå¤§å¤šæ•°äººä¸€æ ·æŠŠäº‹æƒ…åšå¥½ã€‚
 male relevance = KendalltauResult(correlation=0.637851007473007, pvalue=1.029936045757845e-16)
 mean = 2.141509433962264
 female relevance = KendalltauResult(correlation=0.6051536478449089, pvalue=6.610044207802838e-06)
 mean = 2.2162162162162162
 overall relevance = KendalltauResult(correlation=0.631760050355884, pvalue=1.3554138488096695e-21)
 mean = 2.160839160839161
-Question #5: ÎÒ¸Ğµ½×Ô¼ºÖµµÃ×ÔºÀµÄµØ·½²»¶à¡£
+Question #5: æˆ‘æ„Ÿåˆ°è‡ªå·±å€¼å¾—è‡ªè±ªçš„åœ°æ–¹ä¸å¤šã€‚
 male relevance = KendalltauResult(correlation=-0.6068947214289274, pvalue=2.0184647578040104e-15)
 mean = 2.5
 female relevance = KendalltauResult(correlation=-0.7560887449729967, pvalue=7.208766848515425e-09)
 mean = 2.324324324324324
 overall relevance = KendalltauResult(correlation=-0.6427840755524777, pvalue=1.0061199842608725e-22)
 mean = 2.4545454545454546
-Question #6: ÎÒ¶Ô×Ô¼º³Ö¿Ï¶¨Ì¬¶È¡£
+Question #6: æˆ‘å¯¹è‡ªå·±æŒè‚¯å®šæ€åº¦ã€‚
 male relevance = KendalltauResult(correlation=0.6889622389027948, pvalue=3.429879829210342e-19)
 mean = 2.188679245283019
 female relevance = KendalltauResult(correlation=0.697124271133448, pvalue=1.754087790142157e-07)
 mean = 2.2432432432432434
 overall relevance = KendalltauResult(correlation=0.6900821813312676, pvalue=1.9692103747428999e-25)
 mean = 2.202797202797203
-Question #7: ×ÜµÃÀ´Ëµ£¬ÎÒ¶Ô×Ô¼ºÊÇÂúÒâµÄ¡£
+Question #7: æ€»å¾—æ¥è¯´ï¼Œæˆ‘å¯¹è‡ªå·±æ˜¯æ»¡æ„çš„ã€‚
 male relevance = KendalltauResult(correlation=0.6868354312442384, pvalue=3.866729172926977e-19)
 mean = 2.1226415094339623
 female relevance = KendalltauResult(correlation=0.6116545786057779, pvalue=4.249943485120475e-06)
 mean = 2.189189189189189
 overall relevance = KendalltauResult(correlation=0.665882019520377, pvalue=6.136997946108228e-24)
 mean = 2.13986013986014
-Question #8: ÎÒÒªÊÇÄÜ¿´µÃÆğ×Ô¼º¾ÍºÃÁË¡£
+Question #8: æˆ‘è¦æ˜¯èƒ½çœ‹å¾—èµ·è‡ªå·±å°±å¥½äº†ã€‚
 male relevance = KendalltauResult(correlation=-0.5889272872019756, pvalue=4.397092483832112e-15)
 mean = 2.5943396226415096
 female relevance = KendalltauResult(correlation=-0.4563672002288237, pvalue=0.000570532076391011)
 mean = 2.324324324324324
 overall relevance = KendalltauResult(correlation=-0.5610207565199845, pvalue=4.057094102754944e-18)
 mean = 2.5244755244755246
-Question #9: ÎÒÈ·ÊµÊ±³£¸Ğµ½ºÁÎŞÓÃ´¦¡£
+Question #9: æˆ‘ç¡®å®æ—¶å¸¸æ„Ÿåˆ°æ¯«æ— ç”¨å¤„ã€‚
 male relevance = KendalltauResult(correlation=-0.7564647643600788, pvalue=9.462141086733821e-24)
 mean = 2.688679245283019
 female relevance = KendalltauResult(correlation=-0.7435474976513716, pvalue=1.3770210398452047e-08)
 mean = 2.5405405405405403
 overall relevance = KendalltauResult(correlation=-0.7526392102681677, pvalue=3.2610717382800082e-31)
 mean = 2.6503496503496504
-Question #10: ÎÒÊ±³£ÈÏÎª×Ô¼ºÒ»ÎŞÊÇ´¦¡£
+Question #10: æˆ‘æ—¶å¸¸è®¤ä¸ºè‡ªå·±ä¸€æ— æ˜¯å¤„ã€‚
 male relevance = KendalltauResult(correlation=-0.7241211992699206, pvalue=1.292391362310694e-21)
 mean = 2.839622641509434
 female relevance = KendalltauResult(correlation=-0.6846531968814575, pvalue=1.9255529493293021e-07)
 mean = 2.6216216216216215
 overall relevance = KendalltauResult(correlation=-0.7133563407197085, pvalue=6.700686032361807e-28)
 mean = 2.7832167832167833
-Question #11: ÎÒ³£ÈÏÎª¸¸Ä¸¶ÔÎÒÔ¤ÆÚ¹ı¸ß¡£
+Question #11: æˆ‘å¸¸è®¤ä¸ºçˆ¶æ¯å¯¹æˆ‘é¢„æœŸè¿‡é«˜ã€‚
 male relevance = KendalltauResult(correlation=-0.30589325551497865, pvalue=5.7215896257507955e-05)
 mean = 2.9622641509433962
 female relevance = KendalltauResult(correlation=-0.31228368040359317, pvalue=0.01652280457483035)
 mean = 2.864864864864865
 overall relevance = KendalltauResult(correlation=-0.3077187723965499, pvalue=2.34882896864071e-06)
 mean = 2.937062937062937
-Question #12: ÎÒÏ°¹ßÓÚ¸ßÒªÇó×Ô¼º¡£
+Question #12: æˆ‘ä¹ æƒ¯äºé«˜è¦æ±‚è‡ªå·±ã€‚
 male relevance = KendalltauResult(correlation=0.03952863618458894, pvalue=0.6086957546486456)
 mean = 2.056603773584906
 female relevance = KendalltauResult(correlation=0.32568071638557866, pvalue=0.01288274564155882)
 mean = 2.027027027027027
 overall relevance = KendalltauResult(correlation=0.11770279819885499, pvalue=0.07463963498214125)
 mean = 2.0489510489510487
-Question #13: ÎÒ³£ÄÜ²Î¼ÓÉç»á»î¶¯/Éç¹¤²¢ÓĞ»ñµÃ¸Ğ¡£
+Question #13: æˆ‘å¸¸èƒ½å‚åŠ ç¤¾ä¼šæ´»åŠ¨/ç¤¾å·¥å¹¶æœ‰è·å¾—æ„Ÿã€‚
 male relevance = KendalltauResult(correlation=0.06645712878044334, pvalue=0.38171460792482037)
 mean = 2.5849056603773586
 female relevance = KendalltauResult(correlation=0.4226278512193733, pvalue=0.001165581578213449)
 mean = 2.4324324324324325
 overall relevance = KendalltauResult(correlation=0.14948500358641328, pvalue=0.021763281275197544)
 mean = 2.5454545454545454
-Question #14: ÎÒ»á»ı¼«Ö÷¶¯»ò¹æÂÉµØ½øĞĞÌåÓı¶ÍÁ¶¡£
+Question #14: æˆ‘ä¼šç§¯æä¸»åŠ¨æˆ–è§„å¾‹åœ°è¿›è¡Œä½“è‚²é”»ç‚¼ã€‚
 male relevance = KendalltauResult(correlation=0.3220091800272686, pvalue=2.3341092650543242e-05)
 mean = 2.3679245283018866
 female relevance = KendalltauResult(correlation=0.3120645859994531, pvalue=0.015784102296868042)
 mean = 2.2432432432432434
 overall relevance = KendalltauResult(correlation=0.3173422289168238, pvalue=1.073617781383035e-06)
 mean = 2.335664335664336
-Question #15: ÎÒ³£³£ÄÃ×Ô¼ººÍÍ¬Ñ§×÷±È½Ï¡£
+Question #15: æˆ‘å¸¸å¸¸æ‹¿è‡ªå·±å’ŒåŒå­¦ä½œæ¯”è¾ƒã€‚
 male relevance = KendalltauResult(correlation=-0.15994855831857735, pvalue=0.036276102851965794)
 mean = 2.188679245283019
 female relevance = KendalltauResult(correlation=-0.06815997921794205, pvalue=0.6102643362340295)
 mean = 2.027027027027027
 overall relevance = KendalltauResult(correlation=-0.14213256653975226, pvalue=0.030906453211092533)
 mean = 2.1468531468531467
-Question #16: ÎÒÔÚ¸Ğµ½´ì°ÜÊ±ÄÜ´Ó±ğÈËÄÇÀï»ñµÃÀí½âºÍ°²Î¿¡£
+Question #16: æˆ‘åœ¨æ„Ÿåˆ°æŒ«è´¥æ—¶èƒ½ä»åˆ«äººé‚£é‡Œè·å¾—ç†è§£å’Œå®‰æ…°ã€‚
 male relevance = KendalltauResult(correlation=0.13083194385946903, pvalue=0.09025331317690459)
 mean = 2.169811320754717
 female relevance = KendalltauResult(correlation=0.3947915261592908, pvalue=0.0031402241505103495)
 mean = 1.9189189189189189
 overall relevance = KendalltauResult(correlation=0.18027724651327226, pvalue=0.006546107736040771)
 mean = 2.104895104895105
-Question #17: ÎÒÔÚÉç½»³¡ºÏ³£³£¸Ğµ½×Ô¼º¾ÙÖ¹²»µ±¡£
+Question #17: æˆ‘åœ¨ç¤¾äº¤åœºåˆå¸¸å¸¸æ„Ÿåˆ°è‡ªå·±ä¸¾æ­¢ä¸å½“ã€‚
 male relevance = KendalltauResult(correlation=-0.2890661277985687, pvalue=0.00016890790115590854)
 mean = 2.3679245283018866
 female relevance = KendalltauResult(correlation=-0.43153595204772766, pvalue=0.00125312885693146)
 mean = 2.4324324324324325
 overall relevance = KendalltauResult(correlation=-0.31332448192644147, pvalue=2.200256731543927e-06)
 mean = 2.3846153846153846
-Question #18: ÎÒ²»ºÃÒâË¼ÎÊ±ğÈËÊıÑ§Ìâ¡£
+Question #18: æˆ‘ä¸å¥½æ„æ€é—®åˆ«äººæ•°å­¦é¢˜ã€‚
 male relevance = KendalltauResult(correlation=-0.2720607857627476, pvalue=0.0003229307377911305)
 mean = 2.858490566037736
 female relevance = KendalltauResult(correlation=-0.060557085137453795, pvalue=0.6436497068288256)
 mean = 2.4864864864864864
 overall relevance = KendalltauResult(correlation=-0.2334257595113823, pvalue=0.0003219163079372664)
 mean = 2.762237762237762
-Question #19: ÎÒ³£³£ÒòÎªµ£ĞÄ³ö³ó¶ø²»¸ÒÔÚ´ó¼ÒÃæÇ°±í´ï¼û½â¡£
+Question #19: æˆ‘å¸¸å¸¸å› ä¸ºæ‹…å¿ƒå‡ºä¸‘è€Œä¸æ•¢åœ¨å¤§å®¶é¢å‰è¡¨è¾¾è§è§£ã€‚
 male relevance = KendalltauResult(correlation=-0.3086427510916177, pvalue=5.680137034527242e-05)
 mean = 2.2641509433962264
 female relevance = KendalltauResult(correlation=-0.4531228058146282, pvalue=0.0005982330696256264)
 mean = 2.2432432432432434
 overall relevance = KendalltauResult(correlation=-0.3414738277129177, pvalue=2.1719475873415842e-07)
 mean = 2.2587412587412588
-Question #20: ÎÒ³£³£ÒòÎªÈÏÎª×Ô¼ºÄÜÁ¦²»×ã¶ø²»¸Ò²ÎÓë¸÷ÖÖ¾ºÑ¡¡£
+Question #20: æˆ‘å¸¸å¸¸å› ä¸ºè®¤ä¸ºè‡ªå·±èƒ½åŠ›ä¸è¶³è€Œä¸æ•¢å‚ä¸å„ç§ç«é€‰ã€‚
 male relevance = KendalltauResult(correlation=-0.5257499238078643, pvalue=3.468869689753813e-12)
 mean = 2.2641509433962264
 female relevance = KendalltauResult(correlation=-0.4343875241551592, pvalue=0.0009074252295452692)

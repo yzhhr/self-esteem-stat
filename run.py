@@ -97,7 +97,7 @@ def kendall_tau_c(x, y):
       sum += sgn(x[i] - x[j]) * sgn(y[i] - y[j])
   return sum * 2 / n / (n - 1)
 
-report = open('./report/report.txt', 'w')
+report = open('./report/report.txt', 'w', encoding='utf-8')
 report.write('male count = {}\n'.format(len(males)))
 report.write('female count = {}\n'.format(len(females)))
 report.write('male rosenberg ave = {}\n'.format(sum_over(males, rosenberg) / len(males) / 10))
