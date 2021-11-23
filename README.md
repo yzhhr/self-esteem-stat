@@ -1,6 +1,6 @@
 # self-esteem-stat
 
-Part of my hw research paper of English Reading and Writing in 2021 Fall.
+Part of my hw research paper of English Reading and Writing in 2021 Fall. The credit goes to the whole group of four students.
 
 The code is not well-written. It is used only once.
 
