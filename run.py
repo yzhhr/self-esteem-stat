@@ -1,5 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import scipy
+import scipy.stats
 file = r'goodorder.xlsx'
 df = pd.read_excel(file, sheet_name='Sheet1', header=0)
 print('head!!', df.head(0))
@@ -45,7 +47,7 @@ for i in range(L, R + 1):
   user = {'gender': row[1], 'grade': row[2]}
   for j in range(3, 22 + 1):
     key = data[0][j]
-    user[conv[key][1]] = row[j]
+    user[conv[key][1]] = 5 - row[j] # reverse
   users.append(user)
   del row
   del user
@@ -98,10 +100,17 @@ def kendall_tau_c(x, y):
   return sum * 2 / n / (n - 1)
 
 report = open('./report/report.txt', 'w', encoding='utf-8')
-report.write('male count = {}\n'.format(len(males)))
-report.write('female count = {}\n'.format(len(females)))
-report.write('male rosenberg ave = {}\n'.format(sum_over(males, rosenberg) / len(males) / 10))
-report.write('female rosenberg ave = {}\n'.format(sum_over(females, rosenberg) / len(females) / 10))
+# report.write('male count = {}\n'.format(len(males)))
+# report.write('female count = {}\n'.format(len(females)))
+# report.write('male rosenberg ave = {}\n'.format(sum_over(males, rosenberg) / len(males) / 10))
+# report.write('female rosenberg ave = {}\n'.format(sum_over(females, rosenberg) / len(females) / 10))
+report.write('strongly agree=4, agree=3, disagree=2, strongly disagree=1\n')
+report.write('answers to Q.3.10.9.5.8 are inverted when calculating RSES score\n')
+report.write('but they are displayed as they originally were in the following analysis\n')
+
+def describe(a):
+  n, minmax, mean, var, skew, kurt = scipy.stats.describe(a)
+  report.write('n = {}, minmax = {}, mean = {}, standard deviation = {}\n'.format(n, minmax, mean, var**0.5))
 
 # consider the following questions
 
@@ -115,8 +124,15 @@ def extract(users):
     score.append(user[i])
   return ses, score
 
-import scipy
-import scipy.stats
+i = 1
+ses, score = extract(males)
+describe(ses)
+ses, score = extract(females)
+describe(ses)
+ses, score = extract(users)
+describe(ses)
+
+
 
 for i in range(1, 20 + 1):
   report.write('Question #{}: {}\n'.format(i, conv[revmap[i]][0]))
@@ -124,28 +140,28 @@ for i in range(1, 20 + 1):
   ses, score = extract(males)
   plt.scatter(ses, score, color='#0000ff77')
   report.write('male relevance = {}\n'.format(scipy.stats.kendalltau(ses, score)))
-  report.write('mean = {}\n'.format(sum(score) / len(score)))
+  describe(score)
 
   ses, score = extract(females)
   plt.scatter(ses, score, color='#ff000077')
   report.write('female relevance = {}\n'.format(scipy.stats.kendalltau(ses, score)))
-  report.write('mean = {}\n'.format(sum(score) / len(score)))
+  describe(score)
 
 
   # plt.scatter(ses, score, color='r', alpha=0.5)
   ses, score = extract(users)
   report.write('overall relevance = {}\n'.format(scipy.stats.kendalltau(ses, score)))
-  report.write('mean = {}\n'.format(sum(score) / len(score)))
+  describe(score)
 
   plt.xlabel('SES Score')
   plt.ylabel('This Question')
-  plt.rcParams['font.sans-serif'] = ['SimHei']
+  plt.rcParams['font.sans-serif'] = ['SimSun']
   plt.rcParams['axes.unicode_minus'] = False
   plt.title(str(i) + '.' + conv[revmap[i]][0])
   # plt.savefig('./report/{}cn.png'.format(i))
   plt.rcParams['font.sans-serif'] = ['Times New Roman']
   plt.rcParams['axes.unicode_minus'] = True
-  plt.title('Figure {}'.format(i))
+  plt.title('Question {}'.format(i))
   plt.savefig('./report/{}en.png'.format(i))
   print(i, 'done')
   # plt.show()

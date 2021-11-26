@@ -1,144 +1,146 @@
-male count = 106
-female count = 37
-male rosenberg ave = 2.2132075471698114
-female rosenberg ave = 2.3324324324324324
+strongly agree=4, agree=3, disagree=2, strongly disagree=1
+answers to Q.3.10.9.5.8 are inverted when calculating RSES score
+but they are displayed as they originally were in the following analysis
+n = 106, minmax = (1.0, 4.0), mean = 2.7867924528301895, standard deviation = 0.6711859399881197
+n = 37, minmax = (1.0, 3.9), mean = 2.6675675675675676, standard deviation = 0.6245238426433615
+n = 143, minmax = (1.0, 4.0), mean = 2.755944055944056, standard deviation = 0.6593447854832832
 Question #1: —我感到我是一个有价值的人，至少与其他人在同一水平上。
 male relevance = KendalltauResult(correlation=0.5900130631923629, pvalue=2.246132137718375e-14)
-mean = 2.1132075471698113
+n = 106, minmax = (1, 4), mean = 2.8867924528301887, standard deviation = 0.747322263844545
 female relevance = KendalltauResult(correlation=0.6491415422716635, pvalue=5.436795353394289e-07)
-mean = 2.189189189189189
+n = 37, minmax = (1, 4), mean = 2.810810810810811, standard deviation = 0.9954853042566681
 overall relevance = KendalltauResult(correlation=0.5997476692073497, pvalue=7.883457048122254e-20)
-mean = 2.132867132867133
+n = 143, minmax = (1, 4), mean = 2.867132867132867, standard deviation = 0.8156718671733504
 Question #2: 我感到我有许多好的品质。
 male relevance = KendalltauResult(correlation=0.5505465871923267, pvalue=1.2751801957628484e-12)
-mean = 2.0283018867924527
+n = 106, minmax = (1, 4), mean = 2.9716981132075473, standard deviation = 0.7231880104596567
 female relevance = KendalltauResult(correlation=0.6426512326263107, pvalue=1.24073803011382e-06)
-mean = 2.054054054054054
+n = 37, minmax = (1, 4), mean = 2.945945945945946, standard deviation = 0.7798128673650545
 overall relevance = KendalltauResult(correlation=0.5688374593699853, pvalue=1.2113268810434436e-17)
-mean = 2.034965034965035
+n = 143, minmax = (1, 4), mean = 2.965034965034965, standard deviation = 0.7355422203543223
 Question #3: 归根结底，我倾向于觉得自己是个失败者。
 male relevance = KendalltauResult(correlation=-0.7439220053443354, pvalue=6.162946803002246e-23)
-mean = 2.839622641509434
+n = 106, minmax = (1, 4), mean = 2.160377358490566, standard deviation = 0.986931680491953
 female relevance = KendalltauResult(correlation=-0.5715739957163775, pvalue=1.493232280534243e-05)
-mean = 2.7567567567567566
+n = 37, minmax = (1, 4), mean = 2.2432432432432434, standard deviation = 0.7960110763259727
 overall relevance = KendalltauResult(correlation=-0.7063663674261437, pvalue=1.506158554097129e-27)
-mean = 2.8181818181818183
+n = 143, minmax = (1, 4), mean = 2.1818181818181817, standard deviation = 0.939256250837606
 Question #4: 我能像大多数人一样把事情做好。
 male relevance = KendalltauResult(correlation=0.637851007473007, pvalue=1.029936045757845e-16)
-mean = 2.141509433962264
+n = 106, minmax = (1, 4), mean = 2.858490566037736, standard deviation = 0.7980772041097758
 female relevance = KendalltauResult(correlation=0.6051536478449089, pvalue=6.610044207802838e-06)
-mean = 2.2162162162162162
+n = 37, minmax = (1, 4), mean = 2.7837837837837838, standard deviation = 0.6722737180285661
 overall relevance = KendalltauResult(correlation=0.631760050355884, pvalue=1.3554138488096695e-21)
-mean = 2.160839160839161
+n = 143, minmax = (1, 4), mean = 2.839160839160839, standard deviation = 0.7659142530092197
 Question #5: 我感到自己值得自豪的地方不多。
 male relevance = KendalltauResult(correlation=-0.6068947214289274, pvalue=2.0184647578040104e-15)
-mean = 2.5
+n = 106, minmax = (1, 4), mean = 2.5, standard deviation = 0.8423323628614833
 female relevance = KendalltauResult(correlation=-0.7560887449729967, pvalue=7.208766848515425e-09)
-mean = 2.324324324324324
+n = 37, minmax = (1, 4), mean = 2.675675675675676, standard deviation = 0.8836180061433678
 overall relevance = KendalltauResult(correlation=-0.6427840755524777, pvalue=1.0061199842608725e-22)
-mean = 2.4545454545454546
+n = 143, minmax = (1, 4), mean = 2.5454545454545454, standard deviation = 0.8535532420440105
 Question #6: 我对自己持肯定态度。
 male relevance = KendalltauResult(correlation=0.6889622389027948, pvalue=3.429879829210342e-19)
-mean = 2.188679245283019
+n = 106, minmax = (1, 4), mean = 2.811320754716981, standard deviation = 0.7820998297887652
 female relevance = KendalltauResult(correlation=0.697124271133448, pvalue=1.754087790142157e-07)
-mean = 2.2432432432432434
+n = 37, minmax = (1, 4), mean = 2.7567567567567566, standard deviation = 0.7228571937267572
 overall relevance = KendalltauResult(correlation=0.6900821813312676, pvalue=1.9692103747428999e-25)
-mean = 2.202797202797203
+n = 143, minmax = (1, 4), mean = 2.797202797202797, standard deviation = 0.7650779262477496
 Question #7: 总得来说，我对自己是满意的。
 male relevance = KendalltauResult(correlation=0.6868354312442384, pvalue=3.866729172926977e-19)
-mean = 2.1226415094339623
+n = 106, minmax = (1, 4), mean = 2.8773584905660377, standard deviation = 0.813022932830419
 female relevance = KendalltauResult(correlation=0.6116545786057779, pvalue=4.249943485120475e-06)
-mean = 2.189189189189189
+n = 37, minmax = (1, 4), mean = 2.810810810810811, standard deviation = 0.739287864465897
 overall relevance = KendalltauResult(correlation=0.665882019520377, pvalue=6.136997946108228e-24)
-mean = 2.13986013986014
+n = 143, minmax = (1, 4), mean = 2.86013986013986, standard deviation = 0.7925835682726176
 Question #8: 我要是能看得起自己就好了。
 male relevance = KendalltauResult(correlation=-0.5889272872019756, pvalue=4.397092483832112e-15)
-mean = 2.5943396226415096
+n = 106, minmax = (1, 4), mean = 2.4056603773584904, standard deviation = 1.0026469908795699
 female relevance = KendalltauResult(correlation=-0.4563672002288237, pvalue=0.000570532076391011)
-mean = 2.324324324324324
+n = 37, minmax = (1, 4), mean = 2.675675675675676, standard deviation = 0.8183334709454756
 overall relevance = KendalltauResult(correlation=-0.5610207565199845, pvalue=4.057094102754944e-18)
-mean = 2.5244755244755246
+n = 143, minmax = (1, 4), mean = 2.4755244755244754, standard deviation = 0.9629193275861606
 Question #9: 我确实时常感到毫无用处。
 male relevance = KendalltauResult(correlation=-0.7564647643600788, pvalue=9.462141086733821e-24)
-mean = 2.688679245283019
+n = 106, minmax = (1, 4), mean = 2.311320754716981, standard deviation = 0.9794382019171313
 female relevance = KendalltauResult(correlation=-0.7435474976513716, pvalue=1.3770210398452047e-08)
-mean = 2.5405405405405403
+n = 37, minmax = (1, 4), mean = 2.4594594594594597, standard deviation = 0.8690542303304525
 overall relevance = KendalltauResult(correlation=-0.7526392102681677, pvalue=3.2610717382800082e-31)
-mean = 2.6503496503496504
+n = 143, minmax = (1, 4), mean = 2.3496503496503496, standard deviation = 0.9513425743574646
 Question #10: 我时常认为自己一无是处。
 male relevance = KendalltauResult(correlation=-0.7241211992699206, pvalue=1.292391362310694e-21)
-mean = 2.839622641509434
+n = 106, minmax = (1, 4), mean = 2.160377358490566, standard deviation = 0.9272262009202263
 female relevance = KendalltauResult(correlation=-0.6846531968814575, pvalue=1.9255529493293021e-07)
-mean = 2.6216216216216215
+n = 37, minmax = (1, 4), mean = 2.3783783783783785, standard deviation = 0.8612442985249549
 overall relevance = KendalltauResult(correlation=-0.7133563407197085, pvalue=6.700686032361807e-28)
-mean = 2.7832167832167833
+n = 143, minmax = (1, 4), mean = 2.2167832167832167, standard deviation = 0.9126641094169029
 Question #11: 我常认为父母对我预期过高。
 male relevance = KendalltauResult(correlation=-0.30589325551497865, pvalue=5.7215896257507955e-05)
-mean = 2.9622641509433962
+n = 106, minmax = (1, 4), mean = 2.0377358490566038, standard deviation = 0.9250434049212609
 female relevance = KendalltauResult(correlation=-0.31228368040359317, pvalue=0.01652280457483035)
-mean = 2.864864864864865
+n = 37, minmax = (1, 4), mean = 2.135135135135135, standard deviation = 0.947574745282871
 overall relevance = KendalltauResult(correlation=-0.3077187723965499, pvalue=2.34882896864071e-06)
-mean = 2.937062937062937
+n = 143, minmax = (1, 4), mean = 2.062937062937063, standard deviation = 0.9285516756330207
 Question #12: 我习惯于高要求自己。
 male relevance = KendalltauResult(correlation=0.03952863618458894, pvalue=0.6086957546486456)
-mean = 2.056603773584906
+n = 106, minmax = (1, 4), mean = 2.943396226415094, standard deviation = 0.753786488391018
 female relevance = KendalltauResult(correlation=0.32568071638557866, pvalue=0.01288274564155882)
-mean = 2.027027027027027
+n = 37, minmax = (1, 4), mean = 2.972972972972973, standard deviation = 0.8971091376219533
 overall relevance = KendalltauResult(correlation=0.11770279819885499, pvalue=0.07463963498214125)
-mean = 2.0489510489510487
+n = 143, minmax = (1, 4), mean = 2.9510489510489513, standard deviation = 0.790156619602983
 Question #13: 我常能参加社会活动/社工并有获得感。
 male relevance = KendalltauResult(correlation=0.06645712878044334, pvalue=0.38171460792482037)
-mean = 2.5849056603773586
+n = 106, minmax = (1, 4), mean = 2.4150943396226414, standard deviation = 0.8822905744038869
 female relevance = KendalltauResult(correlation=0.4226278512193733, pvalue=0.001165581578213449)
-mean = 2.4324324324324325
+n = 37, minmax = (1, 4), mean = 2.5675675675675675, standard deviation = 0.9291734839971292
 overall relevance = KendalltauResult(correlation=0.14948500358641328, pvalue=0.021763281275197544)
-mean = 2.5454545454545454
+n = 143, minmax = (1, 4), mean = 2.4545454545454546, standard deviation = 0.8938543909469309
 Question #14: 我会积极主动或规律地进行体育锻炼。
 male relevance = KendalltauResult(correlation=0.3220091800272686, pvalue=2.3341092650543242e-05)
-mean = 2.3679245283018866
+n = 106, minmax = (1, 4), mean = 2.6320754716981134, standard deviation = 0.8654805623314626
 female relevance = KendalltauResult(correlation=0.3120645859994531, pvalue=0.015784102296868042)
-mean = 2.2432432432432434
+n = 37, minmax = (1, 4), mean = 2.7567567567567566, standard deviation = 1.0111985574171487
 overall relevance = KendalltauResult(correlation=0.3173422289168238, pvalue=1.073617781383035e-06)
-mean = 2.335664335664336
+n = 143, minmax = (1, 4), mean = 2.664335664335664, standard deviation = 0.9033899844479061
 Question #15: 我常常拿自己和同学作比较。
 male relevance = KendalltauResult(correlation=-0.15994855831857735, pvalue=0.036276102851965794)
-mean = 2.188679245283019
+n = 106, minmax = (1, 4), mean = 2.811320754716981, standard deviation = 0.8407842999210384
 female relevance = KendalltauResult(correlation=-0.06815997921794205, pvalue=0.6102643362340295)
-mean = 2.027027027027027
+n = 37, minmax = (2, 4), mean = 2.972972972972973, standard deviation = 0.686637802244729
 overall relevance = KendalltauResult(correlation=-0.14213256653975226, pvalue=0.030906453211092533)
-mean = 2.1468531468531467
+n = 143, minmax = (1, 4), mean = 2.8531468531468533, standard deviation = 0.8045473047659938
 Question #16: 我在感到挫败时能从别人那里获得理解和安慰。
 male relevance = KendalltauResult(correlation=0.13083194385946903, pvalue=0.09025331317690459)
-mean = 2.169811320754717
+n = 106, minmax = (1, 4), mean = 2.830188679245283, standard deviation = 0.7492434039394744
 female relevance = KendalltauResult(correlation=0.3947915261592908, pvalue=0.0031402241505103495)
-mean = 1.9189189189189189
+n = 37, minmax = (1, 4), mean = 3.081081081081081, standard deviation = 0.7218178586187938
 overall relevance = KendalltauResult(correlation=0.18027724651327226, pvalue=0.006546107736040771)
-mean = 2.104895104895105
+n = 143, minmax = (1, 4), mean = 2.895104895104895, standard deviation = 0.7478917477712398
 Question #17: 我在社交场合常常感到自己举止不当。
 male relevance = KendalltauResult(correlation=-0.2890661277985687, pvalue=0.00016890790115590854)
-mean = 2.3679245283018866
+n = 106, minmax = (1, 4), mean = 2.6320754716981134, standard deviation = 0.7967251028352693
 female relevance = KendalltauResult(correlation=-0.43153595204772766, pvalue=0.00125312885693146)
-mean = 2.4324324324324325
+n = 37, minmax = (1, 4), mean = 2.5675675675675675, standard deviation = 0.7280316133452105
 overall relevance = KendalltauResult(correlation=-0.31332448192644147, pvalue=2.200256731543927e-06)
-mean = 2.3846153846153846
+n = 143, minmax = (1, 4), mean = 2.6153846153846154, standard deviation = 0.7775283783877387
 Question #18: 我不好意思问别人数学题。
 male relevance = KendalltauResult(correlation=-0.2720607857627476, pvalue=0.0003229307377911305)
-mean = 2.858490566037736
+n = 106, minmax = (1, 4), mean = 2.141509433962264, standard deviation = 0.9505755574315716
 female relevance = KendalltauResult(correlation=-0.060557085137453795, pvalue=0.6436497068288256)
-mean = 2.4864864864864864
+n = 37, minmax = (1, 4), mean = 2.5135135135135136, standard deviation = 0.86991767240168
 overall relevance = KendalltauResult(correlation=-0.2334257595113823, pvalue=0.0003219163079372664)
-mean = 2.762237762237762
+n = 143, minmax = (1, 4), mean = 2.237762237762238, standard deviation = 0.9416650069555174
 Question #19: 我常常因为担心出丑而不敢在大家面前表达见解。
 male relevance = KendalltauResult(correlation=-0.3086427510916177, pvalue=5.680137034527242e-05)
-mean = 2.2641509433962264
+n = 106, minmax = (1, 4), mean = 2.7358490566037736, standard deviation = 0.8083126079909905
 female relevance = KendalltauResult(correlation=-0.4531228058146282, pvalue=0.0005982330696256264)
-mean = 2.2432432432432434
+n = 37, minmax = (1, 4), mean = 2.7567567567567566, standard deviation = 0.7960110763259727
 overall relevance = KendalltauResult(correlation=-0.3414738277129177, pvalue=2.1719475873415842e-07)
-mean = 2.2587412587412588
+n = 143, minmax = (1, 4), mean = 2.7412587412587412, standard deviation = 0.8024020866360214
 Question #20: 我常常因为认为自己能力不足而不敢参与各种竞选。
 male relevance = KendalltauResult(correlation=-0.5257499238078643, pvalue=3.468869689753813e-12)
-mean = 2.2641509433962264
+n = 106, minmax = (1, 4), mean = 2.7358490566037736, standard deviation = 0.9391169792995041
 female relevance = KendalltauResult(correlation=-0.4343875241551592, pvalue=0.0009074252295452692)
-mean = 2.2162162162162162
+n = 37, minmax = (1, 4), mean = 2.7837837837837838, standard deviation = 0.886163238509297
 overall relevance = KendalltauResult(correlation=-0.5004566860960861, pvalue=1.3666798165720836e-14)
-mean = 2.2517482517482517
+n = 143, minmax = (1, 4), mean = 2.7482517482517483, standard deviation = 0.922859391946173
